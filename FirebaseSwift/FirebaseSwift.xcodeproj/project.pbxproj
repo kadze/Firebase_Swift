@@ -14,6 +14,7 @@
 		5E24E6361E261F80004DCC18 /* SAPChaptersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E24E6341E261F80004DCC18 /* SAPChaptersViewController.swift */; };
 		5E24E6371E261F80004DCC18 /* SAPChaptersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24E6351E261F80004DCC18 /* SAPChaptersViewController.xib */; };
 		5E24E63D1E26236A004DCC18 /* SAPChaptersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E24E63C1E26236A004DCC18 /* SAPChaptersViewModel.swift */; };
+		5E24E6401E262641004DCC18 /* SAPViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E24E63F1E262641004DCC18 /* SAPViewModelDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5E24E6341E261F80004DCC18 /* SAPChaptersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPChaptersViewController.swift; sourceTree = "<group>"; };
 		5E24E6351E261F80004DCC18 /* SAPChaptersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAPChaptersViewController.xib; sourceTree = "<group>"; };
 		5E24E63C1E26236A004DCC18 /* SAPChaptersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPChaptersViewModel.swift; sourceTree = "<group>"; };
+		5E24E63F1E262641004DCC18 /* SAPViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPViewModelDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				5E24E6291E261F54004DCC18 /* SAPAppDelegate.swift */,
 				5E24E6321E261F7F004DCC18 /* UI */,
 				5E24E63A1E262348004DCC18 /* Models */,
+				5E24E63E1E26262E004DCC18 /* Protocols */,
 				5E24E6261E261F54004DCC18 /* Library */,
 			);
 			path = Source;
@@ -124,6 +127,14 @@
 				5E24E63C1E26236A004DCC18 /* SAPChaptersViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5E24E63E1E26262E004DCC18 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5E24E63F1E262641004DCC18 /* SAPViewModelDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				5E24E6361E261F80004DCC18 /* SAPChaptersViewController.swift in Sources */,
 				5E24E62E1E261F54004DCC18 /* UIWindow+SAPExtensions.swift in Sources */,
 				5E24E62F1E261F54004DCC18 /* SAPAppDelegate.swift in Sources */,
+				5E24E6401E262641004DCC18 /* SAPViewModelDelegate.swift in Sources */,
 				5E24E63D1E26236A004DCC18 /* SAPChaptersViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
