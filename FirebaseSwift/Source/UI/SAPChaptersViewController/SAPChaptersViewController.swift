@@ -14,5 +14,4 @@ class SAPChaptersViewController: UIViewController {
     let viewModel = SAPChaptersViewModel()
     
     
-    
 }

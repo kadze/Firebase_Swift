@@ -8,5 +8,6 @@
 
 class SAPChaptersViewModel {
     //MARK: Properties
+    weak var delegate: SAPViewModelDelegate?
 }
 
