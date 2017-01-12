@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class SAPAppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,6 +22,8 @@ class SAPAppDelegate: UIResponder, UIApplicationDelegate {
         let navigationController = UINavigationController(rootViewController: chaptersController)
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
+        
+        FIRApp.configure()
         
         return true
     }
