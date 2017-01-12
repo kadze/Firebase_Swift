@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1E7BA81E2774E50094AB08 /* SAPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E7BA71E2774E50094AB08 /* SAPModel.swift */; };
 		5E24E61B1E261ED6004DCC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E24E61A1E261ED6004DCC18 /* Assets.xcassets */; };
 		5E24E61E1E261ED6004DCC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E24E61C1E261ED6004DCC18 /* LaunchScreen.storyboard */; };
 		5E24E62E1E261F54004DCC18 /* UIWindow+SAPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E24E6281E261F54004DCC18 /* UIWindow+SAPExtensions.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E1E7BA71E2774E50094AB08 /* SAPModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPModel.swift; sourceTree = "<group>"; };
 		5E24E6101E261ED6004DCC18 /* FirebaseSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E24E61A1E261ED6004DCC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E24E61D1E261ED6004DCC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				5E24E63B1E262348004DCC18 /* ViewModels */,
+				5E1E7BA71E2774E50094AB08 /* SAPModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1E7BA81E2774E50094AB08 /* SAPModel.swift in Sources */,
 				5E24E6361E261F80004DCC18 /* SAPChaptersViewController.swift in Sources */,
 				5E24E62E1E261F54004DCC18 /* UIWindow+SAPExtensions.swift in Sources */,
 				5E24E62F1E261F54004DCC18 /* SAPAppDelegate.swift in Sources */,
@@ -367,6 +371,7 @@
 				5E24E6241E261ED6004DCC18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

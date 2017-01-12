@@ -6,8 +6,25 @@
 //  Copyright © 2017 SAP. All rights reserved.
 //
 
+import UIKit
+
 class SAPChaptersViewModel {
+    
     //MARK: Properties
     weak var delegate: SAPViewModelDelegate?
+    var tableView: UITableView?
+//    var chapters = []
+    
+    let rowHeight: CGFloat = 66.0
+    
+    //MARK: Initialization and Deinit
+    init() {
+        <#statements#>
+    }
+    
+    //MARK: Public
+    func numberOfRows(inSection section: Int) -> Int {
+        <#function body#>
+    }
 }
 
