@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1435F471288B12261E4017DE /* Pods_FirebaseSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCE510ADEA2A4FF14CFFDF4 /* Pods_FirebaseSwift.framework */; };
 		5E1E7BA81E2774E50094AB08 /* SAPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E7BA71E2774E50094AB08 /* SAPModel.swift */; };
+		5E1E7BAA1E2779060094AB08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E1E7BA91E2779060094AB08 /* GoogleService-Info.plist */; };
 		5E24E61B1E261ED6004DCC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E24E61A1E261ED6004DCC18 /* Assets.xcassets */; };
 		5E24E61E1E261ED6004DCC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E24E61C1E261ED6004DCC18 /* LaunchScreen.storyboard */; };
 		5E24E62E1E261F54004DCC18 /* UIWindow+SAPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E24E6281E261F54004DCC18 /* UIWindow+SAPExtensions.swift */; };
@@ -19,7 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0779DD7D24BC08D401D2F914 /* Pods-FirebaseSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSwift/Pods-FirebaseSwift.release.xcconfig"; sourceTree = "<group>"; };
 		5E1E7BA71E2774E50094AB08 /* SAPModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPModel.swift; sourceTree = "<group>"; };
+		5E1E7BA91E2779060094AB08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5E24E6101E261ED6004DCC18 /* FirebaseSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E24E61A1E261ED6004DCC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E24E61D1E261ED6004DCC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +34,8 @@
 		5E24E6351E261F80004DCC18 /* SAPChaptersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAPChaptersViewController.xib; sourceTree = "<group>"; };
 		5E24E63C1E26236A004DCC18 /* SAPChaptersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPChaptersViewModel.swift; sourceTree = "<group>"; };
 		5E24E63F1E262641004DCC18 /* SAPViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPViewModelDelegate.swift; sourceTree = "<group>"; };
+		919650CFD8C351984C388364 /* Pods-FirebaseSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSwift/Pods-FirebaseSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		DBCE510ADEA2A4FF14CFFDF4 /* Pods_FirebaseSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1435F471288B12261E4017DE /* Pods_FirebaseSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +56,8 @@
 				5E24E6121E261ED6004DCC18 /* FirebaseSwift */,
 				5E24E6251E261F54004DCC18 /* Source */,
 				5E24E6111E261ED6004DCC18 /* Products */,
+				EBCF7BA68009C7B77E7F14F3 /* Pods */,
+				CEBE9451DB0D8A121D84D571 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +75,7 @@
 				5E24E61A1E261ED6004DCC18 /* Assets.xcassets */,
 				5E24E61C1E261ED6004DCC18 /* LaunchScreen.storyboard */,
 				5E24E61F1E261ED6004DCC18 /* Info.plist */,
+				5E1E7BA91E2779060094AB08 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseSwift;
 			sourceTree = "<group>";
@@ -140,6 +150,23 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		CEBE9451DB0D8A121D84D571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBCE510ADEA2A4FF14CFFDF4 /* Pods_FirebaseSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBCF7BA68009C7B77E7F14F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				919650CFD8C351984C388364 /* Pods-FirebaseSwift.debug.xcconfig */,
+				0779DD7D24BC08D401D2F914 /* Pods-FirebaseSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E24E6221E261ED6004DCC18 /* Build configuration list for PBXNativeTarget "FirebaseSwift" */;
 			buildPhases = (
+				4258C644B0792C6E7BF875F6 /* [CP] Check Pods Manifest.lock */,
 				5E24E60C1E261ED6004DCC18 /* Sources */,
 				5E24E60D1E261ED6004DCC18 /* Frameworks */,
 				5E24E60E1E261ED6004DCC18 /* Resources */,
+				C38B5AF5F546198F87456741 /* [CP] Embed Pods Frameworks */,
+				DFED9CE022A1ED959EDDFC93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,12 +230,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E24E61E1E261ED6004DCC18 /* LaunchScreen.storyboard in Resources */,
+				5E1E7BAA1E2779060094AB08 /* GoogleService-Info.plist in Resources */,
 				5E24E61B1E261ED6004DCC18 /* Assets.xcassets in Resources */,
 				5E24E6371E261F80004DCC18 /* SAPChaptersViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4258C644B0792C6E7BF875F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B5AF5F546198F87456741 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSwift/Pods-FirebaseSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFED9CE022A1ED959EDDFC93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSwift/Pods-FirebaseSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E24E60C1E261ED6004DCC18 /* Sources */ = {
@@ -330,6 +409,7 @@
 		};
 		5E24E6231E261ED6004DCC18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919650CFD8C351984C388364 /* Pods-FirebaseSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseSwift/Info.plist;
@@ -342,6 +422,7 @@
 		};
 		5E24E6241E261ED6004DCC18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0779DD7D24BC08D401D2F914 /* Pods-FirebaseSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseSwift/Info.plist;
