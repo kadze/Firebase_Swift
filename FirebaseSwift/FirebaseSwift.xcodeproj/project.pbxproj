@@ -10,6 +10,8 @@
 		1435F471288B12261E4017DE /* Pods_FirebaseSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCE510ADEA2A4FF14CFFDF4 /* Pods_FirebaseSwift.framework */; };
 		5E1E7BA81E2774E50094AB08 /* SAPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E7BA71E2774E50094AB08 /* SAPModel.swift */; };
 		5E1E7BAA1E2779060094AB08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E1E7BA91E2779060094AB08 /* GoogleService-Info.plist */; };
+		5E1E7BB61E28CD230094AB08 /* SAPChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E7BB51E28CD230094AB08 /* SAPChapter.swift */; };
+		5E1E7BB81E28D11D0094AB08 /* SAPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E7BB71E28D11D0094AB08 /* SAPImage.swift */; };
 		5E24E61B1E261ED6004DCC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E24E61A1E261ED6004DCC18 /* Assets.xcassets */; };
 		5E24E61E1E261ED6004DCC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E24E61C1E261ED6004DCC18 /* LaunchScreen.storyboard */; };
 		5E24E62E1E261F54004DCC18 /* UIWindow+SAPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E24E6281E261F54004DCC18 /* UIWindow+SAPExtensions.swift */; };
@@ -24,6 +26,8 @@
 		0779DD7D24BC08D401D2F914 /* Pods-FirebaseSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSwift/Pods-FirebaseSwift.release.xcconfig"; sourceTree = "<group>"; };
 		5E1E7BA71E2774E50094AB08 /* SAPModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPModel.swift; sourceTree = "<group>"; };
 		5E1E7BA91E2779060094AB08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E1E7BB51E28CD230094AB08 /* SAPChapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPChapter.swift; sourceTree = "<group>"; };
+		5E1E7BB71E28D11D0094AB08 /* SAPImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPImage.swift; sourceTree = "<group>"; };
 		5E24E6101E261ED6004DCC18 /* FirebaseSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E24E61A1E261ED6004DCC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E24E61D1E261ED6004DCC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 			children = (
 				5E24E63B1E262348004DCC18 /* ViewModels */,
 				5E1E7BA71E2774E50094AB08 /* SAPModel.swift */,
+				5E1E7BB51E28CD230094AB08 /* SAPChapter.swift */,
+				5E1E7BB71E28D11D0094AB08 /* SAPImage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -291,8 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1E7BB81E28D11D0094AB08 /* SAPImage.swift in Sources */,
 				5E1E7BA81E2774E50094AB08 /* SAPModel.swift in Sources */,
 				5E24E6361E261F80004DCC18 /* SAPChaptersViewController.swift in Sources */,
+				5E1E7BB61E28CD230094AB08 /* SAPChapter.swift in Sources */,
 				5E24E62E1E261F54004DCC18 /* UIWindow+SAPExtensions.swift in Sources */,
 				5E24E62F1E261F54004DCC18 /* SAPAppDelegate.swift in Sources */,
 				5E24E6401E262641004DCC18 /* SAPViewModelDelegate.swift in Sources */,

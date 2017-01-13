@@ -17,14 +17,14 @@ class SAPChaptersViewModel {
     
     let rowHeight: CGFloat = 66.0
     
-    //MARK: Initialization and Deinit
+    //MARK: Init and Deinit
     init() {
-        <#statements#>
+        
     }
     
     //MARK: Public
     func numberOfRows(inSection section: Int) -> Int {
-        <#function body#>
+        return 1
     }
 }
 
